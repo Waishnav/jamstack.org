@@ -15,29 +15,7 @@ supportedgenerators:
   - Nuxt
   - MkDocs
 description: >
-  GitCMS is an AI-focused CMS for markdown-based content sites that brings together Content Agents for ChatGPT and Claude using MCP app.
----
----
-title: GitCMS
-homepage: https://gitcms.dev
-twitter: gitcms_app
-opensource: "No"
-typeofcms: "Git-based"
-supportedgenerators:
-  - Next.js
-  - Astro
-  - Jekyll
-  - Hugo
-  - 11ty
-  - SvelteKit
-  - Gatsby
-  - Nuxt
-  - MkDocs
-  - Docusaurus
-  - VuePress
-  - TanStack Start
-description: >
-  GitCMS is a Git-powered visual CMS for markdown-based content sites, combining a Notion-like editor, structured editorial workflow, and AI content operations through MCP for ChatGPT and Claude.
+  GitCMS is an AI-focused CMS for markdown-based content sites that brings together Content Agents for ChatGPT and Claude using MCP app, combining a Notion-like editor, structured editorial workflow.
 ---
 
 ## GitCMS
