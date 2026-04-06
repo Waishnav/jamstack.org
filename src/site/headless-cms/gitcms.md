@@ -1,6 +1,6 @@
 ---
 title: GitCMS
-homepage: https://gitcms.blog
+homepage: https://gitcms.dev
 twitter: gitcms_app
 opensource: "No"
 typeofcms: "Git-based"
@@ -15,33 +15,50 @@ supportedgenerators:
   - Nuxt
   - MkDocs
 description: >
-  GitCMS is a Chrome extension which turns GitHub into a headless CMS with a Notion-like editor, custom frontmatter schemas, and seamless GitHub integration.
+  GitCMS is an AI-focused CMS for markdown-based content sites that brings together Content Agents for ChatGPT and Claude using MCP app.
 ---
+---
+title: GitCMS
+homepage: https://gitcms.dev
+twitter: gitcms_app
+opensource: "No"
+typeofcms: "Git-based"
+supportedgenerators:
+  - Next.js
+  - Astro
+  - Jekyll
+  - Hugo
+  - 11ty
+  - SvelteKit
+  - Gatsby
+  - Nuxt
+  - MkDocs
+  - Docusaurus
+  - VuePress
+  - TanStack Start
+description: >
+  GitCMS is a Git-powered visual CMS for markdown-based content sites, combining a Notion-like editor, structured editorial workflow, and AI content operations through MCP for ChatGPT and Claude.
+---
+
 ## GitCMS
 
-GitCMS is a Chrome extension that transforms GitHub into a user-friendly headless CMS, supporting all major static site generators. It offers a Notion-like editor, custom frontmatter schemas, and seamless GitHub integration for efficient content management.
+GitCMS is a Git-based visual CMS for markdown-based content sites. It combines a Notion-like editing experience for non-technical teams with a structured editorial workflow and AI-assisted content operations through MCP app for which converts ChatGPT and Claude into content agents. Git remains the source of truth, while writers, marketers, and reviewers can manage blogs, documentation, changelogs, and other content without dealing directly with Git.
 
 ### Features
 
-- **Notion-like Visual Editor**: Provides a rich text editing experience similar to Notion, making content creation intuitive. 
-- **Custom Frontmatter Schemas**: Define various field types (title, text, datetime, media, etc.) to structure content metadata effectively. 
-- **GitHub Integration**: Leverages GitHub's version control and project management features for content collaboration and tracking. 
-- **Media Asset Management**: Simplifies media uploads with dynamic paths for each collection, ensuring organized asset storage. 
-- **Automated Deployments**: Utilizes GitHub Actions workflows to build and deploy sites automatically upon content changes, compatible with platforms like Netlify, Vercel, GitHub Pages, and Cloudflare Pages. 
-- **Content Collaboration**: Supports GitHub's pull requests and review system, enabling team members to suggest changes, leave comments, and approve updates before they go live. 
-- **Emoji Support**: Enables the use of emojis to make content more engaging and visually appealing.
-  
-### Upcoming Features
-- **Custom SSG Components Support**: Allows the use of custom components to build unique pages and layouts, enhancing site customization. 
-- **Internal Link Suggestions**: Provides recommendations for internal linking, improving site navigation and SEO. 
-- **Automatic Image Optimization**: Ensures images are optimized for performance, enhancing site speed and user experience. 
-- **OG Image Generator**: Automatically generates Open Graph images for social media sharing, improving content visibility. 
-- **JSON/YAML Editor**: Offers a user-friendly editor for dynamic data used in landing pages, facilitating easy data management. 
+- Visual, Notion-like editor with slash commands, drag-and-drop blocks, and structured content fields
+- Direct read/write workflow to the Git repository, with every save stored as a real commit
+- Editorial workflow with Ideas, Draft, Review, and Published stages
+- AI integrations for ChatGPT and Claude via MCP, including task-first drafting and review workflows
+- Support for markdown- and MDX-based static site generators and content frameworks
+- Media library, localization support, branches and drafts, and role-based team access
 
 ### Benefits
-- **Framework Agnostic**: Compatible with any markdown-based static site generator, including Astro.js, Next.js, Hugo, Jekyll, Eleventy, Gatsby, etc. 
-- **Quick Setup**: Install the Chrome extension and configure your site in minutes without complex setups. 
-- **Cost-Effective**: Offers a free plan for personal projects and a one-time fee per site for commercial use, avoiding recurring monthly costs. 
-- **Client-Friendly**: Provides a familiar interface that requires zero technical knowledge, making it easy for clients to manage content. 
 
-For more information, visit the [GitCMS website](https://gitcms.blog) or follow them on Twitter [@gitcms_app](https://twitter.com/gitcms_app).
+- Lets non-technical contributors update content without learning Git or markdown internals
+- Preserves Git-based ownership, history, and review controls for developers
+- Makes AI content creation more structured by keeping drafting inside an editorial workflow
+- Works with existing markdown-based sites instead of requiring a separate database-backed CMS
+- Fits teams managing blogs, docs, changelogs, help centers, and similar content-heavy sites
+
+For more information, visit the [GitCMS website](https://gitcms.dev) or follow them on Twitter [@gitcms_app](https://twitter.com/gitcms_app).
