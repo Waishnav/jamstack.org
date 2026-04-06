@@ -9,9 +9,10 @@ supportedgenerators:
   - Astro
   - Jekyll
   - Hugo
+  - Gatsby
   - 11ty
   - SvelteKit
-  - Gatsby
+  - Vuepress
   - Nuxt
   - MkDocs
 description: >
